@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="project2" version="4">
+  <OBJECT>
+    <ID name="project2" mc="Standard.Package" uid="c91aca1b-0c8e-4a0c-82a3-1ffdfd695cad"/>
+    <PID name="Project2" mc="Standard.Project" uid="5092af6b-458f-480f-9a8b-f36472b2e498"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[project2]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="class" mc="Standard.Package" uid="7501619f-a368-4f5d-aa5a-4fe108adfcc7"/>
+        <COMPID name="object" mc="Standard.Package" uid="f5f6e749-f384-4522-9f76-fa73409721c4"/>
+        <COMPID name="usecase" mc="Standard.Package" uid="1b82620e-8094-485f-86a2-220cf26e5b33"/>
+        <COMPID name="sequence" mc="Standard.Package" uid="728c0967-b80b-4edd-8bdf-7d637d28f1c1"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

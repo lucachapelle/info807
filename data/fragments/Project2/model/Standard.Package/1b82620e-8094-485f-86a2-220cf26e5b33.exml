@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="usecase" version="4">
+  <OBJECT>
+    <ID name="usecase" mc="Standard.Package" uid="1b82620e-8094-485f-86a2-220cf26e5b33"/>
+    <PID name="project2" mc="Standard.Package" uid="c91aca1b-0c8e-4a0c-82a3-1ffdfd695cad"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[usecase]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="
+Joueur" mc="Standard.Actor" uid="f06e4e27-72bf-4109-ab91-0e7f995bc965"/>
+        <COMPID name="Lancé partie" mc="Standard.UseCase" uid="50904b96-0a9c-47ee-97c1-a443354de77d"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="usecase Use Case diagram" mc="Standard.UseCaseDiagram" uid="05fcff56-4652-4245-bcd1-58ca126bee86"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
