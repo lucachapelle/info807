@@ -5,33 +5,69 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Personnage {
-    public String Porte-monnaie;
+    public int porte_monnaie;
 
-    private Case ;
+    public Case c;
+    Depart depart = new Depart();
+    Achetable achetable = new Achetable();
 
-    public Case get() {
+    public Case getCase() {
         // Automatically generated method. Please do not modify this code.
-        return this.;
+        return this.c;
     }
 
-    public void set(final Case value) {
+    public void setCase(final Case value) {
         // Automatically generated method. Please do not modify this code.
-        this. = value;
+        this.c = value;
     }
 
-    private List<class.Achetable>  = new ArrayList<class.Achetable> ();
+    private ArrayList<Achetable> listAchetable =new ArrayList<Achetable>();
 
-    public List<class.Achetable> get() {
+    public List<Achetable> getListAchetable() {
         // Automatically generated method. Please do not modify this code.
-        return this.;
+        return this.listAchetable;
     }
 
-    public void set(final List<class.Achetable> value) {
+    public void setListAchetable(final List<Achetable> value) {
         // Automatically generated method. Please do not modify this code.
-        this. = value;
+        new ArrayList<Achetable>();
     }
 
-    public void create(final class.Case p1) {
+    public void create(Case p1) {
+        setCase(depart);
+        new Personnage();
     }
 
+    public boolean testSolde(int somme){
+        if (porte_monnaie > somme){
+            return true;
+        }else { return false;}
+    }
+
+    public void ajoutCaseAchetable(Case c){
+        listAchetable.add((Achetable) c);
+    }
+
+    public void debiterCompte(int somme){
+        if (testSolde(somme)){
+            porte_monnaie = porte_monnaie - somme;
+        }
+    }
+
+    public int lancerDes(){
+        int nombreAleatoire = 2 + (int)(Math.random() * ((12 - 2) + 1));
+        return nombreAleatoire;
+    }
+
+    public void avancerJoueur(int pas){
+
+    }
+
+    public void achatCase(Achetable a){
+        if (a.estAchetable(a)){
+            a.getPrix();
+            debiterCompte(a.getPrix());
+            ajoutCaseAchetable(a);
+        }
+    }
 }

@@ -1,7 +1,7 @@
 package test;
 
-class;
 
 
-public class Terrain extends class.Achetable {
+
+public class Terrain extends Achetable {
 }
