@@ -6,11 +6,17 @@ import java.util.List;
 
 public class Personnage {
     public int porte_monnaie;
-
+    public String name;
     public Case c;
     Depart depart = new Depart();
     Achetable achetable = new Achetable();
 
+    Personnage(){
+    }
+    Personnage(String name){
+        this.name = name;
+        this.porte_monnaie = 2000;
+    }
     public Case getCase() {
         // Automatically generated method. Please do not modify this code.
         return this.c;
@@ -60,7 +66,9 @@ public class Personnage {
     }
 
     public void avancerJoueur(int pas){
+        for (int i= 0; i< lancerDes(); i++){
 
+        }
     }
 
     public void achatCase(Achetable a){
