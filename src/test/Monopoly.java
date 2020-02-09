@@ -1,11 +1,12 @@
 package test;
 
 
+import javax.swing.*;
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Monopoly {
-    int nbJoueurs;
-    public int jCour;
+    public Personnage jCour;
     ArrayList<Personnage> listJoueur = new ArrayList<>();
 
     public void lancerPartie() {
@@ -13,24 +14,27 @@ public class Monopoly {
     }
 
     public void choisirOrdre() {
-        for (int i = 0 ; i < listJoueur.size(); i++){
-
-        }
+        Collections.shuffle(listJoueur);
     }
 
-    public void ajouterPersonnage(Personnage personnage){
+    public void ajouterPersonnage(Personnage personnage) {
         listJoueur.add(personnage);
     }
 
-    public void afficheListeJoueur(){
-        for(Personnage elem: listJoueur)
-        {
-            System.out.println (elem.name);
+    public void afficheListeJoueur() {
+        for (Personnage elem : listJoueur) {
+            System.out.println("nom " + elem.name);
+            System.out.println("argent " + elem.porte_monnaie);
+
         }
     }
 
     public void setJCourant() {
-        this.jCour = jCour;
+        this.jCour = listJoueur.get(0);
     }
 
+    public void setJSuivant(int i) {
+        this.jCour = listJoueur.get(i);
+
+    }
 }

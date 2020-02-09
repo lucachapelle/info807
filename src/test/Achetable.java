@@ -2,16 +2,27 @@ package test;
 
 
 public class Achetable extends Case {
-    boolean estAchetable = false;
-    int prix;
+    boolean estAchetable = true;
+    int prix = 100;
 
-    public boolean estAchetable(Achetable a){
-        if (a.estAchetable == estAchetable){
-            return true;
-        } else {return false;}
+    public Achetable(String nom, Case c, int prix) {
+
+        super(nom, c, prix);
     }
 
-    public int getPrix(){
+    public Achetable(String name) {
+        super(name);
+    }
+
+    public Achetable(String name, Case c) {
+        super(name, c);
+    }
+
+    public boolean estAchetable() {
+        return estAchetable;
+    }
+
+    public int getPrix() {
         return prix;
     }
 }
