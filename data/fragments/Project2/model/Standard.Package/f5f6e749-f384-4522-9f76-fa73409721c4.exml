@@ -448,18 +448,34 @@ Joueur" mc="Standard.Actor" uid="f06e4e27-72bf-4109-ab91-0e7f995bc965"/>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="Boulevard de Belleville" mc="Standard.Instance" uid="6e4daa8e-1f91-4da9-b082-e548154ed96a"/>
+          <ID name="eLibre" mc="Standard.Instance" uid="ce484c16-bcf6-41ce-bdaa-053cc938c578"/>
           <ATTRIBUTES>
             <ATT name="IsConstant">false</ATT>
             <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
             <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
             <ATT name="Value"></ATT>
-            <ATT name="Name"><![CDATA[Boulevard de Belleville]]></ATT>
+            <ATT name="Name"><![CDATA[eLibre]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Base">
-              <ID name="Achetable" mc="Standard.Class" uid="1af6fd23-7ac1-4af9-b81f-13641172a45f"/>
+              <ID name="eLibre" mc="Standard.Class" uid="be20afab-b04b-46ae-b84e-6c762151ce14"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="eAchete" mc="Standard.Instance" uid="311988d5-0f55-4563-bd3e-de2ca7169981"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[eAchete]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Base">
+              <ID name="eAchete" mc="Standard.Class" uid="cb93be3f-892a-4966-a9b4-399372da6990"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>

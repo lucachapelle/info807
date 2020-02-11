@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="V2 Achat case" version="4">
+  <OBJECT>
+    <ID name="V2 Achat case" mc="Standard.Package" uid="ddd90bb7-5e96-47fa-8ddf-d4fd5c351f32"/>
+    <PID name="project2" mc="Standard.Package" uid="c91aca1b-0c8e-4a0c-82a3-1ffdfd695cad"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[V2 Achat case]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="0c705fd3-e8f1-4567-b6f1-78edd57cf60e"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

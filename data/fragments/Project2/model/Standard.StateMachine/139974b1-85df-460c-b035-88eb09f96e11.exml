@@ -1,0 +1,115 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="State Machine" version="4">
+  <OBJECT>
+    <ID name="State Machine" mc="Standard.StateMachine" uid="139974b1-85df-460c-b035-88eb09f96e11"/>
+    <PID name="Achetable" mc="Standard.Class" uid="1af6fd23-7ac1-4af9-b81f-13641172a45f"/>
+    <ATTRIBUTES>
+      <ATT name="Kind">Dynamic</ATT>
+      <ATT name="IsReentrant">false</ATT>
+      <ATT name="Name"><![CDATA[State Machine]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Top">
+        <OBJECT>
+          <ID name="" mc="Standard.Region" uid="8c26f533-f75b-4c99-b90d-059104d14ed0"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Sub">
+              <OBJECT>
+                <ID name="Initial State" mc="Standard.InitialPseudoState" uid="79a26e47-ed20-4ca3-805c-d2b5ff8f114a"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Initial State]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="OutGoing">
+                    <OBJECT>
+                      <ID name="Transition" mc="Standard.Transition" uid="f6d6072b-15a2-4527-8fb0-ba2f60ff5ca9"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="eLibre" mc="Standard.State" uid="abe27765-8196-4dae-9bec-53aa163c3a66"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="eLibre" mc="Standard.State" uid="abe27765-8196-4dae-9bec-53aa163c3a66"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[eLibre]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="OutGoing">
+                    <OBJECT>
+                      <ID name="Transition" mc="Standard.Transition" uid="50972f43-c058-4403-b2a1-b0f2232e1f56"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"><![CDATA[acheter  (from Achetable)]]></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="eAchete" mc="Standard.State" uid="9cbb47c6-6f31-4921-a243-6b41f72691ef"/>
+                          </REFOBJ>
+                        </LINK>
+                        <COMP relation="Descriptor">
+                          <OBJECT>
+                            <ID name="" mc="Infrastructure.Note" uid="f33e9209-b79f-4008-8923-4161e8bb6712"/>
+                            <ATTRIBUTES>
+                              <ATT name="Content"></ATT>
+                              <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                              <ATT name="Name"></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <LINK relation="Model">
+                                <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                              </LINK>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="eAchete" mc="Standard.State" uid="9cbb47c6-6f31-4921-a243-6b41f72691ef"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[eAchete]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="State Machine State Machine diagram" mc="Standard.StateMachineDiagram" uid="d0a037e5-1dd4-48cf-814c-7e4b8dbf1a8f"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

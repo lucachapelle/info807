@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Acheter quartier" version="4">
+  <OBJECT>
+    <ID name="Acheter quartier" mc="Standard.Package" uid="f51c2276-559c-4cfb-a504-2d0571e4d29a"/>
+    <PID name="project2" mc="Standard.Package" uid="c91aca1b-0c8e-4a0c-82a3-1ffdfd695cad"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Acheter quartier]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="0c8608a9-5fa6-47c1-b62c-305e29de8a79"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -25,7 +25,13 @@
         <COMPID name="Prison" mc="Standard.Class" uid="ee2345f4-dbb1-42fb-b28a-2d70edd590a0"/>
         <COMPID name="Depart" mc="Standard.Class" uid="df58aea9-5727-41a2-9c35-362914e57249"/>
         <COMPID name="Autre" mc="Standard.Class" uid="46a9c76c-dbe8-46ab-80d8-07d531b31b72"/>
+        <COMPID name="Etat" mc="Standard.Interface" uid="534e779c-cfd5-411e-9201-e2763663bf4d"/>
+        <COMPID name="eLibre" mc="Standard.Class" uid="be20afab-b04b-46ae-b84e-6c762151ce14"/>
+        <COMPID name="eAchete" mc="Standard.Class" uid="cb93be3f-892a-4966-a9b4-399372da6990"/>
       </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
       <COMP relation="Product">
         <COMPID name="project2 Class diagram" mc="Standard.ClassDiagram" uid="6e585528-4049-48eb-a8bf-6d03f51e1cea"/>
       </COMP>

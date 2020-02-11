@@ -1,10 +1,8 @@
-#Tue Feb 04 16:30:00 CET 2020
+#Tue Feb 11 11:30:57 CET 2020
 org.modelio.module.propertytab.JavaDesigner\ v3.9.00\ GModule\ @file\:///C\:/Users/luca/.modelio/4.0/modules/JavaDesigner_3.9.00/JavaDesigner_3.9.00.jmdac\ runtime\ module_.org.modelio.full.perspective.parentId=app.ui.ext_com.partstack.bottom
 org.modelio.module.propertytab.JavaDesigner\ v3.9.00\ GModule\ @file\:///C\:/Users/luca/.modelio/4.0/modules/JavaDesigner_3.9.00/JavaDesigner_3.9.00.jmdac\ runtime\ module_.org.modelio.app.ui.model.perspective.parentId=org.modelio.app.bottom.parts
-org.modelio.diagram.editor.OpenedDiagrams4='Sequence diagram Achat Terrain' {43985efa-362e-4e84-ad14-350fca63f588} Standard.SequenceDiagram
-org.modelio.diagram.editor.OpenedDiagrams3='Interaction Sequence diagram' {8e48cbaa-002b-4e8a-beea-59e8a6044cc5} Standard.SequenceDiagram
-org.modelio.diagram.editor.OpenedDiagrams2='usecase Use Case diagram' {05fcff56-4652-4245-bcd1-58ca126bee86} Standard.UseCaseDiagram
+org.modelio.diagram.editor.OpenedDiagrams2='Sequence diagram Achat Terrain' {c9dcb5b1-e2d1-4d50-a00a-16f230feee26} Standard.SequenceDiagram
 org.modelio.module.propertytab.JavaDesigner\ v3.9.00\ GModule\ @file\:///C\:/Users/luca/.modelio/4.0/modules/JavaDesigner_3.9.00/JavaDesigner_3.9.00.jmdac\ runtime\ module_.org.modelio.development.perspective.parentId=app.ui.ext_com.partstack.bottom
-org.modelio.diagram.editor.OpenedDiagrams1='project2 Object diagram' {104c09eb-3073-4f5d-9741-0dbd36363771} Standard.ObjectDiagram
+org.modelio.diagram.editor.OpenedDiagrams1='State Machine State Machine diagram' {d0a037e5-1dd4-48cf-814c-7e4b8dbf1a8f} Standard.StateMachineDiagram
 org.modelio.diagram.editor.OpenedDiagrams0='project2 Class diagram' {6e585528-4049-48eb-a8bf-6d03f51e1cea} Standard.ClassDiagram
 org.modelio.module.propertytab.JavaDesigner\ v3.9.00\ GModule\ @file\:///C\:/Users/luca/.modelio/4.0/modules/JavaDesigner_3.9.00/JavaDesigner_3.9.00.jmdac\ runtime\ module_.org.modelio.diagram.perspective.parentId=app.ui.ext_com.partstack.right
