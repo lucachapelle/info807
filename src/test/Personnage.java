@@ -10,6 +10,7 @@ public class Personnage {
     public String name;
     public Case c;
     public ArrayList<Achetable> listAchetable = new ArrayList<Achetable>();
+
     Personnage(String name) {
         this.name = name;
         this.porte_monnaie = 2000;
@@ -33,7 +34,6 @@ public class Personnage {
         // Automatically generated method. Please do not modify this code.
         this.c = value;
     }
-
 
 
     public List<Achetable> getListAchetable() {
@@ -70,9 +70,9 @@ public class Personnage {
     }
 
     public int lancerDes() {
-//        int nombreAleatoire = 2 + (int) (Math.random() * ((12 - 2) + 1));
+        int nombreAleatoire = 2 + (int) (Math.random() * ((12 - 2) + 1));
 
-        return 2;
+        return nombreAleatoire;
     }
 
     public void avancerJoueur(int pas) {
@@ -101,7 +101,8 @@ public class Personnage {
         }
 //    }
         else {
-        System.out.println("La case appartient deja a quelqu'un");}
+            System.out.println("La case appartient deja a quelqu'un");
+        }
     }
 
     public boolean construire() {
@@ -120,9 +121,9 @@ public class Personnage {
         } else {
             System.out.println("Vous possedez les cartes suivantes: ");
 
-        for (Case elem : listAchetable) {
-            System.out.println("nom " + elem.name);
-        }
+            for (Case elem : listAchetable) {
+                System.out.println("nom " + elem.name);
+            }
         }
     }
 }

@@ -10,7 +10,7 @@ public class Main {
         ArrayList<Case> listeC = plateau.creeCase();
         Scanner sc = new Scanner(System.in);
         int jouerActuel = 0;
-        int nbJ= 0;
+        int nbJ = 0;
         boolean quitter = true;
         boolean jouer = true;
         System.out.println("1. Lancer la partie");
@@ -47,14 +47,7 @@ public class Main {
             switch (str) {
 
                 case "1":
-
-                    if(jouer == true){
-                        jouer = false;
-                        jouer(monopoly.jCour);
-                } else{
-                        System.out.println("Allez passe ton tour");
-                    }
-
+                    jouer(monopoly.jCour);
                     break;
 
                 case "2":
@@ -75,10 +68,10 @@ public class Main {
                     break;
 
                 case "4":
-                    if (jouerActuel + 1< nbJ){
-                        jouerActuel ++;
-                    }else{
-                        jouerActuel=0;
+                    if (jouerActuel + 1 < nbJ) {
+                        jouerActuel++;
+                    } else {
+                        jouerActuel = 0;
                     }
                     monopoly.setJSuivant(jouerActuel);
                     System.out.println("Au joueur suivant de jouer");
