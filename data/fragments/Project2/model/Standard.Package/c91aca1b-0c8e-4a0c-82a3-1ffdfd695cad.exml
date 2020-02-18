@@ -21,6 +21,7 @@
         <COMPID name="Sequence_Achat_Terrain" mc="Standard.Package" uid="e3d099f3-c5ad-4451-b70d-3c096f062ae8"/>
         <COMPID name="Acheter quartier" mc="Standard.Package" uid="f51c2276-559c-4cfb-a504-2d0571e4d29a"/>
         <COMPID name="V2 Achat case" mc="Standard.Package" uid="ddd90bb7-5e96-47fa-8ddf-d4fd5c351f32"/>
+        <COMPID name="achatQuartier" mc="Standard.Package" uid="cf715db1-354f-4200-af00-a7e146c5bbf8"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

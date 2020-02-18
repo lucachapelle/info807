@@ -53,11 +53,6 @@
                 </DEPENDENCIES>
               </OBJECT>
             </COMP>
-            <LINK relation="Redefines">
-              <REFOBJ>
-                <ID name="acheter" mc="Standard.Operation" uid="783636df-aa26-4d08-b7be-055c44791624"/>
-              </REFOBJ>
-            </LINK>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
@@ -229,24 +224,20 @@
                 </DEPENDENCIES>
               </OBJECT>
             </COMP>
-            <LINK relation="Redefines">
-              <REFOBJ>
-                <ID name="construction" mc="Standard.Operation" uid="5e2a740e-3b71-4f59-b301-36d16e95d3d6"/>
-              </REFOBJ>
-            </LINK>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
-      <COMP relation="Realized">
+      <COMP relation="Parent">
         <OBJECT>
-          <ID name="InterfaceRealization" mc="Standard.InterfaceRealization" uid="a7ac9ef1-9603-4172-9d93-84611f4d1f9e"/>
+          <ID name="Generalization" mc="Standard.Generalization" uid="ff9ada25-35c1-4c7a-af34-6c36ed13cf22"/>
           <ATTRIBUTES>
-            <ATT name="Name"><![CDATA[InterfaceRealization]]></ATT>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
-            <LINK relation="Implemented">
-              <ID name="Etat" mc="Standard.Interface" uid="534e779c-cfd5-411e-9201-e2763663bf4d"/>
+            <LINK relation="SuperType">
+              <ID name="Etat" mc="Standard.Class" uid="a3046232-bff7-43e6-8aec-406d0440711a"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>

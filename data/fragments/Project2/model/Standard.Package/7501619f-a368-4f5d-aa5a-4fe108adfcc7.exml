@@ -25,9 +25,12 @@
         <COMPID name="Prison" mc="Standard.Class" uid="ee2345f4-dbb1-42fb-b28a-2d70edd590a0"/>
         <COMPID name="Depart" mc="Standard.Class" uid="df58aea9-5727-41a2-9c35-362914e57249"/>
         <COMPID name="Autre" mc="Standard.Class" uid="46a9c76c-dbe8-46ab-80d8-07d531b31b72"/>
-        <COMPID name="Etat" mc="Standard.Interface" uid="534e779c-cfd5-411e-9201-e2763663bf4d"/>
         <COMPID name="eLibre" mc="Standard.Class" uid="be20afab-b04b-46ae-b84e-6c762151ce14"/>
         <COMPID name="eAchete" mc="Standard.Class" uid="cb93be3f-892a-4966-a9b4-399372da6990"/>
+        <COMPID name="eFini" mc="Standard.Class" uid="9913951b-ba32-4af2-8b9b-672e48891e9e"/>
+        <COMPID name="eConstructible" mc="Standard.Class" uid="e59eadd2-756f-4713-bb52-8d25384b1286"/>
+        <COMPID name="Quartier" mc="Standard.Class" uid="4d3f2725-7b99-4b84-b298-56800c1f350b"/>
+        <COMPID name="Etat" mc="Standard.Class" uid="a3046232-bff7-43e6-8aec-406d0440711a"/>
       </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>

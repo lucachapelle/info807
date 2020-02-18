@@ -1,21 +1,23 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Etat" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="eFini" version="4">
   <OBJECT>
-    <ID name="Etat" mc="Standard.Interface" uid="534e779c-cfd5-411e-9201-e2763663bf4d"/>
+    <ID name="eFini" mc="Standard.Class" uid="9913951b-ba32-4af2-8b9b-672e48891e9e"/>
     <PID name="class" mc="Standard.Package" uid="7501619f-a368-4f5d-aa5a-4fe108adfcc7"/>
     <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
       <ATT name="IsElementary">false</ATT>
-      <ATT name="IsAbstract">true</ATT>
+      <ATT name="IsAbstract">false</ATT>
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Etat]]></ATT>
+      <ATT name="Name"><![CDATA[eFini]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedOperation">
         <OBJECT>
-          <ID name="acheter" mc="Standard.Operation" uid="783636df-aa26-4d08-b7be-055c44791624"/>
+          <ID name="acheter" mc="Standard.Operation" uid="ed252c90-d4eb-4536-9b8f-b9b4ac572707"/>
           <ATTRIBUTES>
             <ATT name="Concurrency">false</ATT>
             <ATT name="Final">false</ATT>
@@ -29,7 +31,7 @@
           <DEPENDENCIES>
             <COMP relation="IO">
               <OBJECT>
-                <ID name="nom" mc="Standard.Parameter" uid="a0b13a11-3d4f-48fb-b5fe-2bc194b092dd"/>
+                <ID name="nom" mc="Standard.Parameter" uid="e6b2aa42-2427-42e7-94c3-e6561e08c5f8"/>
                 <ATTRIBUTES>
                   <ATT name="ParameterPassing">In</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
@@ -54,7 +56,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="construction" mc="Standard.Operation" uid="5e2a740e-3b71-4f59-b301-36d16e95d3d6"/>
+          <ID name="construction" mc="Standard.Operation" uid="3ea9e7d4-5244-4dad-acee-dd990ecfdd59"/>
           <ATTRIBUTES>
             <ATT name="Concurrency">false</ATT>
             <ATT name="Final">false</ATT>
@@ -68,7 +70,7 @@
           <DEPENDENCIES>
             <COMP relation="IO">
               <OBJECT>
-                <ID name="nom" mc="Standard.Parameter" uid="d63278aa-4d48-4533-8387-a249a4bd8739"/>
+                <ID name="nom" mc="Standard.Parameter" uid="924f2162-7093-450f-af55-fb65675d4b33"/>
                 <ATTRIBUTES>
                   <ATT name="ParameterPassing">In</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
@@ -93,8 +95,23 @@
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
+      <COMP relation="Parent">
+        <OBJECT>
+          <ID name="Generalization" mc="Standard.Generalization" uid="50250e36-1f21-4072-8c4a-132cef09b81a"/>
+          <ATTRIBUTES>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="SuperType">
+              <ID name="Etat" mc="Standard.Class" uid="a3046232-bff7-43e6-8aec-406d0440711a"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
       <LINK relation="Extension">
-        <FOREIGNID name="JavaInterface" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0267-0000-000000000000"/>
+        <FOREIGNID name="JavaClass" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0258-0000-000000000000"/>
       </LINK>
     </DEPENDENCIES>
   </OBJECT>
