@@ -1,11 +1,10 @@
-package test;
 
-
-import javax.swing.*;
 import java.util.ArrayList;
 import java.util.Collections;
 
+
 public class Monopoly {
+
     public Personnage jCour;
     ArrayList<Personnage> listJoueur = new ArrayList<>();
 
@@ -37,4 +36,21 @@ public class Monopoly {
         this.jCour = listJoueur.get(i);
 
     }
+
+    public int getIndice() {
+        return listJoueur.indexOf(jCour);
+    }
+
+
+    public int jouer() {
+        return 1;
+    }
+
+    public void demanderAction() {
+    }
+
+    public void ajouterPersonnage() {
+    }
+
+
 }

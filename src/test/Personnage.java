@@ -1,12 +1,11 @@
-package test;
-
-
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
+
 
 public class Personnage {
-
     public int porte_monnaie;
+    private static Scanner sc = new Scanner(System.in);
     public String name;
     public Case c;
     public ArrayList<Achetable> listAchetable = new ArrayList<Achetable>();
@@ -45,30 +44,6 @@ public class Personnage {
         // Automatically generated method. Please do not modify this code.
         new ArrayList<Achetable>();
     }
-
-  /*  public void create(Case p1) {
-        setCase(depart);
-        new Personnage();
-    }*/
-
-    public boolean testSolde(int somme) {
-        if (porte_monnaie > somme) {
-            return true;
-        } else {
-            return false;
-        }
-    }
-
-    public void ajoutCaseAchetable(Case c) {
-        listAchetable.add((Achetable) c);
-    }
-
-    public void debiterCompte(int somme) {
-        if (testSolde(somme)) {
-            porte_monnaie = porte_monnaie - somme;
-        }
-    }
-
     public int lancerDes() {
         int nombreAleatoire = 2 + (int) (Math.random() * ((12 - 2) + 1));
 
@@ -81,39 +56,54 @@ public class Personnage {
 
             this.c = this.c.getCaseSuivante();
         }
-        this.atterri();
+
+        this.atterri(c);
     }
 
-    private void atterri() {
+    private void atterri(Case c) {
+        System.out.println(" Vous avez attérri sur la case "  + c.name);
     }
+
+    public boolean testSolde(int somme) {
+        return porte_monnaie > somme;
+    }
+
+    public void ajoutCaseAchetable(Case c) {
+        listAchetable.add((Achetable) c);
+    }
+
+    public void debiterCompte(int somme) {
+            porte_monnaie = porte_monnaie - somme;
+
+    }
+
+
 
     public void achatCase() {
+        c.acheter(this);
 
-
-        Achetable caseA = (Achetable) c;
-        if (caseA.estAchetable()) {
-            caseA.estAchetable = false;
-            int p = caseA.getPrix();
-            testSolde(p);
-            debiterCompte(p);
-            ajoutCaseAchetable(caseA);
-            System.out.println("La case est en votre possession!");
-        }
-//    }
-        else {
-            System.out.println("La case appartient deja a quelqu'un");
-        }
+    }
+    public void payerLoyer() {
+        c.payerLoyer(this);
     }
 
-    public boolean construire() {
-        if (c.getClass().equals(Terrain.class)) {
-            Terrain caseT = (Terrain) c;
-            return caseT.construction();
+    public void construire() {
+        System.out.println("Sur quelle terrain voulez vous construire");
+        String res = "";
+        int i = 0;
+        for (Achetable elm : listAchetable) {
+            res+= " "+ i++ + " : " + elm.name;
 
-        } else {
-            return false;
         }
+        System.out.println(res);
+        System.out.println("taper le numero du terrain");
+
+        String str = sc.nextLine();
+        Case c = listAchetable.get(Integer.parseInt(str));
+        c.construction(this);
+
     }
+
 
     public void afficheListeCase() {
         if (listAchetable.isEmpty()) {
@@ -126,5 +116,23 @@ public class Personnage {
             }
         }
     }
-}
 
+    public void create(Case p1) {
+    }
+
+    public void setCaseCourante(Case c) {
+    }
+
+
+    public void finTour() {
+    }
+
+
+    public void debiterCompte() {
+    }
+
+
+    public boolean apartient(Achetable a) {
+        return listAchetable.contains(a);
+    }
+}

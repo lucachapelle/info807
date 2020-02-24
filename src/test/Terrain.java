@@ -1,8 +1,3 @@
-package test;
-
-
-
-
 public class Terrain extends Achetable {
     public Terrain(String name) {
         super(name);

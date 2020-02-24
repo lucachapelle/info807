@@ -1,16 +1,19 @@
-package test;
-
 
 import java.util.ArrayList;
 
+
+
+
 public class Plateau {
+    private static ArrayList<Case> listCase;
+
     public Depart getCaseDepart() {
-        // TODO Auto-generated return
-        return null;
+        return (Depart) listCase.get(0);
     }
 
-    public static ArrayList<Case> creeCase() {
-        ArrayList<Case> listCase = new ArrayList<>();
+    public ArrayList<Case> creeCase() {
+       this.listCase = new ArrayList<>();
+
         Depart depart = new Depart("Depart");
         Case courbcelles = new Terrain("Rue de Courbecelles",depart);
         Case vaugibard = new Terrain("Rue de Vaugirad", courbcelles);
@@ -29,4 +32,5 @@ public class Plateau {
 
         return listCase;
     }
+
 }
