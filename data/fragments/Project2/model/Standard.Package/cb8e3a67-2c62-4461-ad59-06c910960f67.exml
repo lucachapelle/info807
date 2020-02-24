@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CreationPartie" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Construire" version="4">
   <OBJECT>
-    <ID name="CreationPartie" mc="Standard.Package" uid="728c0967-b80b-4edd-8bdf-7d637d28f1c1"/>
+    <ID name="Construire" mc="Standard.Package" uid="cb8e3a67-2c62-4461-ad59-06c910960f67"/>
     <PID name="project2" mc="Standard.Package" uid="c91aca1b-0c8e-4a0c-82a3-1ffdfd695cad"/>
     <ATTRIBUTES>
       <ATT name="IsInstantiable">false</ATT>
@@ -9,12 +9,12 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[CreationPartie]]></ATT>
+      <ATT name="Name"><![CDATA[Construire]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedBehavior">
-        <COMPID name="Interaction" mc="Standard.Interaction" uid="18fbba35-8d81-49d9-9463-15bfa1d7a7d9"/>
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="d47a49f0-21b0-40ce-b5ef-e0be9eabcbaf"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Sequence_Achat_Terrain" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Payer Loyer" version="4">
   <OBJECT>
-    <ID name="Sequence_Achat_Terrain" mc="Standard.Package" uid="e3d099f3-c5ad-4451-b70d-3c096f062ae8"/>
+    <ID name="Payer Loyer" mc="Standard.Package" uid="fc9fb7f3-692f-4983-9c9f-f8372348e960"/>
     <PID name="project2" mc="Standard.Package" uid="c91aca1b-0c8e-4a0c-82a3-1ffdfd695cad"/>
     <ATTRIBUTES>
       <ATT name="IsInstantiable">false</ATT>
@@ -9,12 +9,12 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Sequence_Achat_Terrain]]></ATT>
+      <ATT name="Name"><![CDATA[Payer Loyer]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedBehavior">
-        <COMPID name="Interaction" mc="Standard.Interaction" uid="0408d975-1efb-46f3-a4bc-02e546f76331"/>
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="ea486ff6-34b1-434d-8ccf-346266a3cd67"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

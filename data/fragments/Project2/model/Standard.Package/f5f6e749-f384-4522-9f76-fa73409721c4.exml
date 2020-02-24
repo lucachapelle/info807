@@ -612,18 +612,34 @@ Joueur" mc="Standard.Actor" uid="f06e4e27-72bf-4109-ab91-0e7f995bc965"/>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="Instance1" mc="Standard.Instance" uid="cdd2b3c8-dfa4-40fc-a41c-780bc7283f95"/>
+          <ID name="eConstructible" mc="Standard.Instance" uid="bda152c7-5404-45c4-a73f-d90f85998deb"/>
           <ATTRIBUTES>
             <ATT name="IsConstant">false</ATT>
             <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
             <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
             <ATT name="Value"></ATT>
-            <ATT name="Name"><![CDATA[Instance1]]></ATT>
+            <ATT name="Name"><![CDATA[eConstructible]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Base">
               <ID name="eConstructible" mc="Standard.Class" uid="e59eadd2-756f-4713-bb52-8d25384b1286"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="eFini" mc="Standard.Instance" uid="a549cea5-26a7-4401-b5b3-455cf4be5996"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[eFini]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Base">
+              <ID name="eFini" mc="Standard.Class" uid="9913951b-ba32-4af2-8b9b-672e48891e9e"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>

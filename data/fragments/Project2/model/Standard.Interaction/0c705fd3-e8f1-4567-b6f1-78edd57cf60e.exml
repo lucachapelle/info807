@@ -1653,21 +1653,6 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="M" mc="Standard.Lifeline" uid="b473dc0d-06df-4bd8-8f0b-40c7d7e15f84"/>
-          <ATTRIBUTES>
-            <ATT name="Selector"></ATT>
-            <ATT name="Name"><![CDATA[M]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Represented">
-              <REFOBJ>
-                <ID name="M" mc="Standard.Instance" uid="bfcdad1b-f2a0-4b4a-b774-93573f428a5a"/>
-              </REFOBJ>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
           <ID name="Paul" mc="Standard.Lifeline" uid="a4ccdee4-6190-47d7-a5b4-a5d05d6c3e8d"/>
           <ATTRIBUTES>
             <ATT name="Selector"></ATT>

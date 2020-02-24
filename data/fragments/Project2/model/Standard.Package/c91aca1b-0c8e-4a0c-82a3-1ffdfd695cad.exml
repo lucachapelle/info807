@@ -17,11 +17,12 @@
         <COMPID name="class" mc="Standard.Package" uid="7501619f-a368-4f5d-aa5a-4fe108adfcc7"/>
         <COMPID name="object" mc="Standard.Package" uid="f5f6e749-f384-4522-9f76-fa73409721c4"/>
         <COMPID name="usecase" mc="Standard.Package" uid="1b82620e-8094-485f-86a2-220cf26e5b33"/>
-        <COMPID name="sequence" mc="Standard.Package" uid="728c0967-b80b-4edd-8bdf-7d637d28f1c1"/>
-        <COMPID name="Sequence_Achat_Terrain" mc="Standard.Package" uid="e3d099f3-c5ad-4451-b70d-3c096f062ae8"/>
-        <COMPID name="Acheter quartier" mc="Standard.Package" uid="f51c2276-559c-4cfb-a504-2d0571e4d29a"/>
+        <COMPID name="CreationPartie" mc="Standard.Package" uid="728c0967-b80b-4edd-8bdf-7d637d28f1c1"/>
         <COMPID name="V2 Achat case" mc="Standard.Package" uid="ddd90bb7-5e96-47fa-8ddf-d4fd5c351f32"/>
         <COMPID name="achatQuartier" mc="Standard.Package" uid="cf715db1-354f-4200-af00-a7e146c5bbf8"/>
+        <COMPID name="Payer Loyer" mc="Standard.Package" uid="cb8e3a67-2c62-4461-ad59-06c910960f67"/>
+        <COMPID name="Construire" mc="Standard.Package" uid="fc9fb7f3-692f-4983-9c9f-f8372348e960"/>
+        <COMPID name="Fin Tour" mc="Standard.Package" uid="c4b22257-a8e4-42e8-abf0-50ed33a872e0"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

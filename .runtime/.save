@@ -1,9 +1,10 @@
-#Tue Feb 18 16:32:17 CET 2020
+#Mon Feb 24 15:36:10 CET 2020
 org.modelio.module.propertytab.JavaDesigner\ v3.9.00\ GModule\ @file\:///C\:/Users/luca/.modelio/4.0/modules/JavaDesigner_3.9.00/JavaDesigner_3.9.00.jmdac\ runtime\ module_.org.modelio.full.perspective.parentId=app.ui.ext_com.partstack.bottom
 org.modelio.module.propertytab.JavaDesigner\ v3.9.00\ GModule\ @file\:///C\:/Users/luca/.modelio/4.0/modules/JavaDesigner_3.9.00/JavaDesigner_3.9.00.jmdac\ runtime\ module_.org.modelio.app.ui.model.perspective.parentId=org.modelio.app.bottom.parts
-org.modelio.diagram.editor.OpenedDiagrams5='Sequence diagram Quartier' {cd0c9e8a-a092-4d5b-bacb-c4c5736a7102} Standard.SequenceDiagram
-org.modelio.diagram.editor.OpenedDiagrams4='project2 Object diagram' {104c09eb-3073-4f5d-9741-0dbd36363771} Standard.ObjectDiagram
-org.modelio.diagram.editor.OpenedDiagrams3='Sequence diagram Achat Terrain' {43985efa-362e-4e84-ad14-350fca63f588} Standard.SequenceDiagram
+org.modelio.diagram.editor.OpenedDiagrams6='Interaction Sequence diagram' {08ba4b18-7f28-4211-aae3-78eae87608bb} Standard.SequenceDiagram
+org.modelio.diagram.editor.OpenedDiagrams5='Interaction Sequence diagram' {61e0c05e-6c8b-4bae-b14d-044db3ccd5f6} Standard.SequenceDiagram
+org.modelio.diagram.editor.OpenedDiagrams4='Sequence diagram Quartier' {cd0c9e8a-a092-4d5b-bacb-c4c5736a7102} Standard.SequenceDiagram
+org.modelio.diagram.editor.OpenedDiagrams3='project2 Object diagram' {104c09eb-3073-4f5d-9741-0dbd36363771} Standard.ObjectDiagram
 org.modelio.diagram.editor.OpenedDiagrams2='Sequence diagram Achat Terrain' {c9dcb5b1-e2d1-4d50-a00a-16f230feee26} Standard.SequenceDiagram
 org.modelio.module.propertytab.JavaDesigner\ v3.9.00\ GModule\ @file\:///C\:/Users/luca/.modelio/4.0/modules/JavaDesigner_3.9.00/JavaDesigner_3.9.00.jmdac\ runtime\ module_.org.modelio.development.perspective.parentId=app.ui.ext_com.partstack.bottom
 org.modelio.diagram.editor.OpenedDiagrams1='State Machine State Machine diagram' {d0a037e5-1dd4-48cf-814c-7e4b8dbf1a8f} Standard.StateMachineDiagram

@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Acheter quartier" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Fin Tour" version="4">
   <OBJECT>
-    <ID name="Acheter quartier" mc="Standard.Package" uid="f51c2276-559c-4cfb-a504-2d0571e4d29a"/>
+    <ID name="Fin Tour" mc="Standard.Package" uid="c4b22257-a8e4-42e8-abf0-50ed33a872e0"/>
     <PID name="project2" mc="Standard.Package" uid="c91aca1b-0c8e-4a0c-82a3-1ffdfd695cad"/>
     <ATTRIBUTES>
       <ATT name="IsInstantiable">false</ATT>
@@ -9,12 +9,12 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Acheter quartier]]></ATT>
+      <ATT name="Name"><![CDATA[Fin Tour]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedBehavior">
-        <COMPID name="Interaction" mc="Standard.Interaction" uid="0c8608a9-5fa6-47c1-b62c-305e29de8a79"/>
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="fad8b89b-ca35-42d3-a66b-22850eab64e9"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

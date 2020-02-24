@@ -119,7 +119,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="TestPossession" mc="Standard.Operation" uid="31507f2a-ceb3-40dd-a3bf-75e16a517f58"/>
+          <ID name="testPossession" mc="Standard.Operation" uid="31507f2a-ceb3-40dd-a3bf-75e16a517f58"/>
           <ATTRIBUTES>
             <ATT name="Concurrency">false</ATT>
             <ATT name="Final">false</ATT>
@@ -127,7 +127,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[TestPossession]]></ATT>
+            <ATT name="Name"><![CDATA[testPossession]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>

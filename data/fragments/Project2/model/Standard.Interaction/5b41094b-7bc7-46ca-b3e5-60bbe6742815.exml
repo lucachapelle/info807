@@ -1411,7 +1411,7 @@
                   </LINK>
                   <LINK relation="Invoked">
                     <REFOBJ>
-                      <ID name="TestPossession" mc="Standard.Operation" uid="31507f2a-ceb3-40dd-a3bf-75e16a517f58"/>
+                      <ID name="testPossession" mc="Standard.Operation" uid="31507f2a-ceb3-40dd-a3bf-75e16a517f58"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
@@ -1857,21 +1857,6 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="M" mc="Standard.Lifeline" uid="28864804-881e-4cee-98ee-1e5e56e193f4"/>
-          <ATTRIBUTES>
-            <ATT name="Selector"></ATT>
-            <ATT name="Name"><![CDATA[M]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Represented">
-              <REFOBJ>
-                <ID name="M" mc="Standard.Instance" uid="bfcdad1b-f2a0-4b4a-b774-93573f428a5a"/>
-              </REFOBJ>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
           <ID name="Paul" mc="Standard.Lifeline" uid="76dd6bd7-125f-492e-9149-8475987db160"/>
           <ATTRIBUTES>
             <ATT name="Selector"></ATT>
@@ -1938,13 +1923,7 @@
             <ATT name="Name"><![CDATA[Instance1]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Represented">
-              <REFOBJ>
-                <ID name="Instance1" mc="Standard.Instance" uid="cdd2b3c8-dfa4-40fc-a41c-780bc7283f95"/>
-              </REFOBJ>
-            </LINK>
-          </DEPENDENCIES>
+          <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
       </COMP>
       <COMP relation="OwnedCollaboration">
